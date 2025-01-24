@@ -1,6 +1,6 @@
 
 import { test, expect } from '@playwright/test';
-import { testData } from '../tests/test-data.ts'
+import { testData } from './test-data'
 
 test('WEB - 001 Successfully created article', async ({ page }) => { 
   const signInLink = page.locator('//a[contains(text(),"Sign in")]');
