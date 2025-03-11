@@ -1,8 +1,8 @@
 export const testData = {
     baseURL: "https://demo.learnwebdriverio.com/",
     login: {
-            email: "qwe@dqwe.qwe",
-            password: "qwe"
+            email: "username@username.username",
+            password: "username"
     },
     articleTitleField: "The Coffee",
     topicArticle: "Description",
